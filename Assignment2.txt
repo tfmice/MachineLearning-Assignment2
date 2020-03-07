@@ -1,0 +1,13 @@
+--Review Question--
+Q1 : Can you name four of the main challenges in Machine Learning?
+Ans: Bad data -> Insufficient quantity of training data, irrelevant features, poor quality data, irrelevant features
+     Bad algorithm -> Overfitting & underfitting the training data
+
+Q2 : What is a test set and why would you want to use it?
+Ans: Test set adalah dataset yang digunakan untuk mengetest model hasil training. Dengan mengetest model ini kita dapat mengestimasi seberapa banyak kemungkinan errornya. Menggunakan error ini kita dapat mengganti2 hyperparameter (tuning) untuk mendapatkan model tersebut dengan error terkecil.
+
+Q3 : What is the purpose of a validation set?
+Ans: Validation set digunakan untuk membandingkan model mana yang lebih baik digunakan.
+
+Q4 : What is cross-validation and why would you prefer it to a validation set?
+Ans: Cross-validation adalah metode yang membagi dataset menjadi berbagai kombinasi subset. Kombinasi subset ini dibagi menjadi training dataset dan test dataset. Metode ini cenderung dilakukan jika dataset yang dimiliki terbatas.
